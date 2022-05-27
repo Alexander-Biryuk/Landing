@@ -14,25 +14,34 @@ body {
 }
 
 .header {
-  font-weight: 400;
-  font-size: 11px;
-  line-height: 15px;
-  text-transform: uppercase;
-  width: 100%;
+  width: 100vw;
   height: 83px;
   background-color: #131313;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
+.header-container {
+  width: 1256px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo {
-  margin-right: 95px;
+  margin-right: 75px;
   color: #E3B873;
 }
 
 .navigation {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -40,7 +49,7 @@ body {
 }
 
 .navigation-item_link {
-  margin-right: 37px;
+  margin-right: 50px;
   text-decoration: none;
   color: white;
 }
@@ -50,8 +59,7 @@ body {
 }
 
 .tel {
-  margin-left: 67px;
-  margin-right: 45px;
+  margin-left: 10px;
   text-align: right;
   text-decoration-line: underline;
   color: #E3B873;
@@ -74,4 +82,89 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.page1 {
+  background-image: url(../images/image4.3.jpg);
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  height: 100vh; 
+  max-height: 707px;
+  z-index: 0;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.title {
+  margin: 0;
+  padding: 191px 627px 0px 134px;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.rostov {
+  color: #E3B873;
+}
+
+.subtitle {
+  margin: 0;
+  padding: 18px 0px 0px 134px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: white;
+}
+
+.calculate-button {
+  width: 207px;
+  height: 51px;
+  margin: 25px 0px 0px 134px;
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+  border-radius: 2px;
+  outline: 0;
+  border: 0;
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.submit-button {
+  width: 207px;
+  height: 51px;
+  margin: 25px 0px 0px 15px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
 }
