@@ -177,7 +177,7 @@ body {
   background-color: #131313;
   width: 100vw;
   height: 100vh;
-  max-height: 1074px;
+  height: 1074px;
 }
 
 .page2-container {
@@ -314,11 +314,39 @@ body {
 }
 
 .page3-container {
-  margin: -86px 0px 0px 0px;
+  margin: -225px 0px 0px 0px;
   display: flex;
   justify-content: center;
 }
 
-.broadcast {
-  margin-left: 15px;
+.broadcast-image {
+  position: relative;
+  margin-left: -379px;
+}
+
+.overlay-page3 {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 817px;
+  height: 434px;
+  margin-left: -817px;
+  z-index: 1;
+}
+
+.ellipse {
+  margin: 11px 0px 0px -483px;
+  z-index: 2;
+}
+
+.polygon {
+  margin: 2px 0px 0px -78px;
+  z-index: 3;
+}
+
+.page3-text_container {
+  display: flex;
+  justify-content: center;
+}
+
+.rectangle-below_image {
+ margin: 63px 0px 0px 16px;
 }
