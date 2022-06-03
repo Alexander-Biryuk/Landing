@@ -65,6 +65,7 @@ body {
 }
 
 .header_button {
+  cursor: pointer;
   width: 161px;
   height: 37px;
   background: #E3B873;
@@ -138,6 +139,7 @@ body {
 }
 
 .calculate-button {
+  cursor: pointer;
   width: 207px;
   height: 51px;
   margin-top: 25px;
@@ -157,6 +159,7 @@ body {
 }
 
 .submit-button {
+  cursor: pointer;
   width: 207px;
   height: 51px;
   margin: 25px 0px 0px 15px;
@@ -315,7 +318,6 @@ body {
 
 .page3 {
   max-height: 1692px;
-  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -352,6 +354,7 @@ body {
 }
 
 .polygon {
+  cursor: pointer;  
   position: relative;
   margin-top: -90px;
   margin-left: 20px;
@@ -388,6 +391,7 @@ body {
 .input-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 36px;
 }
 
 .input-container_name {
@@ -426,7 +430,8 @@ body {
   color: #363636;
 }
 
-.submit_button {
+.submit_button2 {
+  cursor: pointer;
   background: #E3B873;
   box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
   border-radius: 2px;
@@ -445,7 +450,40 @@ body {
   margin-left: 49px;
 }
 
+.checkbox-container {
+  text-align: center;
+  margin-left: 9px;
+}
+
+.checkbox {
+  
+  display: none;
+  background: #E3B873;
+
+}
+
+.fake{
+  cursor: pointer;
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  background: #E3B873;
+  color: #fff;
+  justify-content: center;
+}
+
+.fake::before{
+  content:"\2714";
+  opacity: 0;
+  transition: .2s;
+}
+
+.checkbox:checked + .fake::before{
+  opacity: 1;
+}
+
 .checkbox-text {
+  padding-left: 4px;
   font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
@@ -453,3 +491,119 @@ body {
   line-height: 23px;
   color: #181818;
 }
+
+.types-of-repair {
+  margin-top: 69px;
+  margin-left: 12px;
+  margin-bottom: 0px;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+}
+
+.hammer-container {
+  margin: 13px auto;
+  width: 150px;
+  padding-left: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.hammer {
+  margin-right: 13px;
+}
+
+
+
+.types-of-repair_images {
+  box-sizing: border-box;
+  margin: 31px auto 0px auto;
+  padding-left: 15px;
+  width: 1251px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.types-of-repair_textwrapper {
+  padding-left: 15px;
+  display: flex;
+  width: 1174px;
+  justify-content: space-between;
+  margin: -127px auto 0px auto;
+}
+
+.redecorating-box {
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 33px;
+  padding-top: 23px;
+  width: 330px;
+  height: 286px;
+  background: #FFFFFF;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex start;
+  z-index: 2;
+}
+
+.Redecor, .Overhaul, .Designer-Repair{
+  margin: 0 0 8px 0;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+}
+
+.redecor-list {
+  margin: 0;
+  padding-left: 10px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 27px;
+  color: #959595;
+}
+
+.from-rub_wrapper {
+  padding-left: 20px;
+  display: flex;
+  width: 1174px;
+  justify-content: flex-start;
+  margin: -26px auto 0px auto;
+}
+
+.rub-box1, .rub-box2, .rub-box3 {
+  position: relative;
+  width: 228px;
+  height: 54px;
+  background: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  z-index: 3;
+}
+
+.rub-box1, .rub-box2 {
+  margin-right: 193px;
+}
+
+.rub-text {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+}
+
