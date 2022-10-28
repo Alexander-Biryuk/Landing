@@ -62,7 +62,7 @@ body {
 
 .tel {
   margin-left: 10px;
-  text-align: right;
+  /* text-align: right; */
   text-decoration-line: underline;
   color: #E3B873;
 }
@@ -87,7 +87,8 @@ body {
   color: #FFFFFF;
 }
 
-/*---page1-------------------------------------------------*/
+/*---page1-----------------------------------------------------------------*/
+
 .page1 {
   background-image: url(../images/image4.3.jpg);
   background-size: cover;
@@ -180,7 +181,7 @@ body {
   color: white;
 }
 
-/*----------page2------------------------------------*/
+/*----------page2------------------------------------------------------------*/
 .page2 {
   background-color: #131313;
   width: 100vw;
@@ -321,7 +322,7 @@ body {
   margin-right: 7px;
 }
 
-/* page3 ---------------------------------------*/
+/* page3 -------------------------------------------------------------------------*/
 
 .page3 {
   max-height: 1692px;
@@ -614,9 +615,8 @@ body {
   text-align: center;
   color: #FFFFFF;
 }
-/* end of page3 -------------------------------------*/
 
-/* page4 -------------------------------------------*/
+/* page4 --------------------------------------------------------------------------*/
 
 .page4 {
   margin: 0 0 0 -98px;
@@ -627,7 +627,8 @@ body {
 .page4__leave-a-request_wrapper {
   display: flex;
   max-width: 1240px;
-  margin: 0 0 0 198px;
+  margin: 0 auto;
+  padding-left: 116px;
   justify-content: space-between;
 }
 
@@ -744,6 +745,7 @@ color: #363636;
 }
 
 .page4__pig {
+  max-width: 1240px;
   font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
@@ -752,33 +754,32 @@ color: #363636;
   color: #E3B873;
   display: flex;
   flex-direction: row;
-  margin: 10px 0 209px 948px;
+  justify-content: flex-end;
+  margin: 10px auto 209px auto;
+  padding-right: 251px;
 }
-/* end of page4 -------------------------------------*/
 
-/* page 5-------------------------------------------*/
+/* page 5---------------------------------------------------------------------------*/
 
 .page5 {
-  height: 864px;
-  max-width: 1440px;
   background-image: url(../images/image5.1.jpg);
   background-size: cover;
+  position: relative;
+  width: 100vw;
+  height: 100vh; 
+  max-height: 864px;
+  z-index: 0;
 }
 
 .page5__container {
+  max-width: 1240px;
   display: flex;
   flex-direction: column;
-}
-
-.page5__overlay {
-  height: 864px;
-  max-width: 1440px;
-  background-color: rgba(0, 0, 0, 0.7);
-  margin-top: -775px;
+  margin: 0 auto;
 }
 
 .page5__header {
-  margin: 137px 0 25px 99px;
+  margin: 137px 0 25px 0;
   width: 411px;
   font-family: 'Yeseva One';
   font-style: normal;
@@ -792,7 +793,7 @@ color: #363636;
 .page5__nav-menu {
   
   list-style: none;
-  margin: 0 0 0 61px;
+  margin: 0 0 0 -40px;
 }
 
 .page5__nav-element {
@@ -812,14 +813,14 @@ color: #363636;
 }
 
 .page5__picture-container-1 {
-  margin: -903px 0 0 588px;
+  margin: -813px 0 0 488px;
   width: 354px;
   display: flex;
   flex-direction: column;
   float: left;
 }
 .page5__picture-container-2 {
-  margin: -975px 0 0 985px;
+  margin: -1059px 0 0 886px;
   width: 354px;
   display: flex;
   flex-direction: column;
@@ -829,19 +830,37 @@ color: #363636;
   margin: 0 0 39px 0;
 }
 
-/* page6---------------------------------*/
+.page5__overlay {
+  /* height: 864px;
+  max-width: 1440px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: -775px; */
+  background-color: rgba(0, 0, 0, 0.7);
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* page6------------------------------------------------------------------*/
 
 .page6 {
-  height: 864px;
+  /* height: 864px;
   max-width: 1440px;
-  margin: 94px 0 0 0;
+  margin: 94px 0 0 0; */
+  width: 100vw;
+  height: 100vh; 
 }
 
 .page6__our-clients {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 20px 22px 38px;
+  margin: 94px 20px 22px 23px;
 }
 
 .page6__header {
@@ -870,11 +889,12 @@ color: #363636;
 }
 
 .page6__persons-container {
-  width: 1240px;
+  margin: 0 auto;
+  max-width: 1240px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 0 0 101px;
+  /* margin: 0 0 0 101px; */
 }
 .page6__person-block {
   width: 376px;
@@ -937,23 +957,37 @@ color: #363636;
 .page6__city2 {
   margin-left: -20px;
 }
+/* page6---------------------------------------------------------------------*/
 
 .page7 {
   height: 953px;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin-top: 167px;
+  width: 100vw;
+  /* height: 100vh; */
   background-image: url(../images/page7_image.jpg);
+  background-size: cover;
+  margin-top: 130px;
+  position: relative;
+  z-index: 0;
+}
+
+.page7__container {
+  max-width: 1240px;
+  margin: 0 auto;
+  /* position: relative; */
 }
 
 .page7__input-form {
   background-color: #131313;
-  position: absolute;
+  position: relative;
   width: 883px;
   height: 445px;
-  margin: -238px 0px 0px 290px;
+  margin: -1324px auto 0 auto;
   box-sizing: border-box;
-  padding: 34px 181px 0 181px;
+  padding: 33px 163px 0 199px;
   color: #FFFFFF;
+  z-index: 1;
 }
 
 .page7__form-header {
@@ -1045,10 +1079,19 @@ color: #363636;
 }
 
 .page7__overlay {
-  height: 953px;
+  /* height: 953px;
   max-width: 1440px;
   background-color: rgba(0, 0, 0, 0.85);
-  margin-top: -888px;
+  margin-top: -888px; */
+  background-color: rgba(0, 0, 0, 0.85);
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
 
 .page7__logo-container {
@@ -1067,7 +1110,7 @@ color: #363636;
 }
 
 .footer {
-  width: 1440px;
+  width: 100vw;
   background-color: #131313;
 }
 
