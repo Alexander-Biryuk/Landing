@@ -879,11 +879,19 @@
     display: block;
   }
 
+  .page5__left-arrow-mobile:hover {
+    cursor: pointer;
+  }
+
   .page5__right-arrow-mobile {
     grid-row: 2;
     grid-column: 1;
     display: block;
     justify-self: flex-end;
+  }
+
+  .page5__right-arrow-mobile:hover {
+    cursor: pointer;
   }
 
   .page5__header {
@@ -1224,6 +1232,14 @@
 
   .page7__letter-image {
     margin-right: 15px;
+  }
+
+  .page7__letter-image:hover {
+    cursor: pointer;
+  }
+
+  .page7__logo-container img:last-child:hover {
+    cursor: pointer;
   }
 
   .page7__map {
