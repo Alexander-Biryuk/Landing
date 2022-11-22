@@ -1082,16 +1082,15 @@
   /* page6---------------------------------------------------------------------*/
 
   .page7 {
-    margin: 0 auto;
+    margin: -122px auto 0 auto;
+    display: flex;
+    flex-direction: column;
     height: 1195px;
-    /* max-width: 1440px; */
-    margin-top: 167px;
     width: 375px;
     /* height: 100vh; */
     background-image: none;
     background-color: #131313;
     background-size: cover;
-    margin-top: -121px;
     position: relative;
     z-index: 0;
   }
@@ -1099,7 +1098,6 @@
   .page7__container {
     max-width: 340px;
     margin: 0 auto;
-    /* position: relative; */
   }
 
   .page7__input-form {
@@ -1107,7 +1105,8 @@
     position: relative;
     width: 375px;
     height: 445px;
-    margin: -1024px auto 0 auto;
+    margin: 173px auto 0 auto;
+    transform: none;
     box-sizing: border-box;
     padding: 0;
     color: #FFFFFF;
@@ -1199,8 +1198,7 @@
 
   .page7__header {
     width: 340px;
-    margin: 0 auto 15px auto;
-    padding-top: 1009px;
+    margin: 593px auto 15px auto;
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
@@ -1248,8 +1246,7 @@
 
   .page7__map-mobile {
     
-    display: flex;
-    justify-content: center;
+    display: block;
     margin: -432px 0 0 0;
   }
 
