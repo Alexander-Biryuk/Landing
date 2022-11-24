@@ -51,10 +51,7 @@
 
   .page1 {
     background-image: url(../images/page1mobile.jpg);
-    /* background-size: cover; */
     position: relative;
-    /* width: 100vw;
-    height: 100vh;  */
     max-width: 375px;
     max-height: 476px;
     z-index: 0;
@@ -149,16 +146,11 @@
     max-width: 375px;
     height: 1553px;
     margin: 0 auto;
-    /* width: 100vw;
-    height: 100vh;
-    height: 1074px; */
   }
 
   .page2__container {
     max-width: 339px;
     margin: 0 auto;
-    /* display: flex;
-    justify-content: center; */
   }
 
   .page2__navigation {
@@ -245,7 +237,6 @@
 
   .page2__left-arrow {
     display: none;
-    /* margin: 43px 25px 0px 0px; */
   }
 
   .page2__right-arrow {
@@ -254,7 +245,6 @@
 
   .page2__dots {
     display: none;
-    /* margin-right: 25px; */
   }
 
   .page2__online-control {
@@ -304,15 +294,11 @@
 
   .page3__broadcast-image {
     display: none;
-    /* position: relative;
-    margin-left: 17px;
-    z-index: 0; */
   }
 
   .page3__broadcast-image-mobile{
     display: block;
     position: relative;
-    /* margin-left: 17px; */
     margin-top: -798px;
     z-index: 0;
   }
@@ -329,10 +315,6 @@
 
   .page3__ellipse {
     display: none;
-    /* position: relative;
-    margin-top: -285px;
-    margin-left: 14px;
-    z-index: 2; */
   }
 
   .page3__ellipse-mobile {
@@ -345,12 +327,6 @@
 
   .page3__polygon {
     display: none;
-    /* cursor: pointer;  
-    position: relative;
-    margin-top: -90px;
-    margin-left: 20px;
-    margin-bottom: 203px;
-    z-index: 3; */
   }
 
   .page3__text-container {
@@ -519,22 +495,6 @@
     margin-right: 13px;
   }
 
-
-
-  /* .types-of-repair_images {
-    box-sizing: border-box;
-    margin: 31px auto 0px auto;
-    padding-left: 15px;
-    width: 1251px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    z-index: 1;
-  } */
-
-
-
-
   .page3__type-of-repair-container {
     margin: 0 auto;
     padding: 28px 0 0 0;
@@ -613,19 +573,6 @@
     text-align: center;
     color: #FFFFFF;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   .types-of-repair_textwrapper {
     padding-left: 15px;
@@ -721,7 +668,6 @@
   }
 
   .page4__house {
-    /* width: 803px; */
     margin: -14px 0 0 -17px;
     height: 598px;
     display: flex;
@@ -777,7 +723,6 @@
 
   .page4__input-name {
     font-size: 13px;
-    /* line-height: 21px; */
     color: rgba(255, 255, 255, 0.5);
   }
 
@@ -851,26 +796,20 @@
 
   .page5 {
     background-image: url(../images/image5.1mobile.jpg);
-    /* background-size: cover;
-    position: relative; */
     margin: 452px auto 0 auto;
     width: 340px;
     height: 242px; 
-    /* max-height: 864px; */
     z-index: 1;
   }
 
   .page5__container {
     max-width: 340px;
     height: 242px;
-    /* display: flex;
-    flex-direction: row; */
     justify-content: space-between;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 100%;
     flex-direction: row;
-    /* grid-template-rows: 10% 90%; */
   }
 
   .page5__left-arrow-mobile {
@@ -914,36 +853,11 @@
     margin: 0 0 0 -40px;
   }
 
-  /* .page5__nav-element {
-    margin-top: 11px;
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 38px;
-    color: #FFFFFF;
-  }
-
-  .page5__nav-element:hover {
-    cursor: pointer;
-    color: #E3B873;
-    text-decoration: underline;
-  } */
-
   .page5__picture-container-1 {
     display: none;
-    /* margin: -813px 0 0 488px;
-    width: 354px;
-    display: flex;
-    flex-direction: column;
-    float: left; */
   }
   .page5__picture-container-2 {
     display: none;
-    /* margin: -1059px 0 0 886px;
-    width: 354px;
-    display: flex;
-    flex-direction: column; */
   }
 
   .page5__image {
@@ -952,10 +866,6 @@
 
   .page5__overlay {
     display: none;
-    /* height: 864px;
-    max-width: 1440px;
-    background-color: rgba(0, 0, 0, 0.7);
-    margin-top: -775px; */
     background-color: rgba(0, 0, 0, 0.7);
     width: auto;
     height: auto;
@@ -971,9 +881,6 @@
 
   .page6 {
     display: none;
-    /* height: 864px;
-    max-width: 1440px;
-    margin: 94px 0 0 0; */
     width: 100vw;
     height: 100vh; 
   }
@@ -1016,7 +923,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* margin: 0 0 0 101px; */
   }
   .page6__person-block {
     width: 376px;
@@ -1087,7 +993,6 @@
     flex-direction: column;
     height: 1195px;
     width: 375px;
-    /* height: 100vh; */
     background-image: none;
     background-color: #131313;
     background-size: cover;
