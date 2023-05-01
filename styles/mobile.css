@@ -157,12 +157,16 @@
     display: none;
   }
 
+  .page2__slide-container {
+    display: none;
+  }
+
   .page2__completed-projects-text {
     margin: 0;
     padding: 0;
   }
 
-  .page2__completed-projects-header {
+  .page2__completed-projects_header {
     text-align: center;
     margin: 0;
     padding-top: 36px;
@@ -183,7 +187,7 @@
 
   
 
-  .page2__completed-projects-description {
+  .page2__completed-projects_description {
     display: none;
   }
 
@@ -204,6 +208,34 @@
     margin: 0 auto 34px auto;
   }
 
+  .page2__slide-container_mobile {
+    display: block;
+    width: 340px;
+    height: 241px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 34px;
+  }
+
+  .page2__main-slide_mobile {
+    width: 1020px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .images_mobile {
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+
   .page2__completed-projects-table td {
     width: 157px;
     height: 31px;
@@ -211,7 +243,7 @@
     vertical-align: top;
   }
 
-  .page2__completed-projects-table thead {
+  .page2__completed-projects_table thead {
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
@@ -222,7 +254,7 @@
     
   }
 
-  .page2__completed-projects-table tbody {
+  .page2__completed-projects_table tbody {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
@@ -231,7 +263,7 @@
     color: #FFFFFF;
   }
 
-  .page2__completed-projects-table {
+  .page2__completed-projects_table {
     margin-bottom: 28px;
   }
 
@@ -245,6 +277,26 @@
 
   .page2__dots {
     display: none;
+  }
+
+  .page2__right-arrow_mobile {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 103px;
+    left: 291px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .page2__left-arrow_mobile {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 103px;
+    left: 13px;
+    cursor: pointer;
+    z-index: 1;
   }
 
   .page2__online-control {
